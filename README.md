@@ -9,7 +9,11 @@
 
 ## 2. Search of covered phages with our rawdata <a name="2"></a>
 
-### Pipeline
+**Log** <a name="./03_logs/phages_log_13062022.ipynb"></a>
+
+**Scripts**
+
+**Pipeline**
 
 ```mermaid
 flowchart LR
@@ -20,5 +24,4 @@ subgraph "Search of covered phages with our rawdata"
     c[("GPD with 142,809 phages")] --- b
     b --> |"Coverage >= 75%"| d["Final phages"]
 end
-
 ```
