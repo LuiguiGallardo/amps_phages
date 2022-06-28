@@ -11,5 +11,11 @@ lefse_run.py allsamples_phages_cov0.75_relab_lefse.in allsamples_phages_cov0.75_
 
 lefse_plot_res.py allsamples_phages_cov0.75_relab_lefse.res allsamples_phages_cov0.75_relab_lefse.svg --format svg
 
+lefse_format_input.py allsamples_phages_cov0.75_rpkm_lefse.tsv allsamples_phages_cov0.75_rpkm_lefse.in -u 1 -c 2 -o 1000000
+
+lefse_run.py allsamples_phages_cov0.75_rpkm_lefse.in allsamples_phages_cov0.75_rpkm_lefse.res -l 0
+
+lefse_plot_res.py allsamples_phages_cov0.75_rpkm_lefse.res allsamples_phages_cov0.75_rpkm_lefse.svg --format svg
+
 # The end!
 
